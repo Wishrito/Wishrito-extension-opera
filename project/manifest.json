@@ -1,0 +1,19 @@
+{
+    "name": "Mon Extension de Barre Latérale",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Une extension de barre latérale pour Opera.",
+    "background": {
+        "scripts": [
+            "content.js"
+        ],
+        "persistent": false
+    },
+    "sidebar_action": {
+        "default_panel": "../sidebar/sidebar.html",
+        "default_title": "Mon Extension de Barre Latérale"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
